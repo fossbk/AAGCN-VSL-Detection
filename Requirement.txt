@@ -1,0 +1,12 @@
+- Python version requirement: use python version 3.10.x
+
+- Libraries:
+pandas
+mediapipe
+opencv-python
+joblib
+tqdm
+scikit-learn
+numpy
+torch
+pytorch-lightning
