@@ -18,5 +18,5 @@ Uncomment the part of the code that you want to use.
 # Evaluation
 We use k-fold in this project with k is defined as 10. The 10 trained models will be stored in the "checkpoints" folder. The final output will print out the best accuracy.
 
-# Acknoledgement
+# Acknowledgement
 This project is built by iBME lab at Hanoi University of Science and Technology, Vietnam. It is funded by Hanoi University of Science and Technology (HUST) under project number T2023-PC-028.
