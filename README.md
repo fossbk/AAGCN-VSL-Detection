@@ -1,5 +1,5 @@
 # AAGCN-VSL-Detection
-# Introction
+# Introduction
 In this project, we modify a model to better classify Vietnamese sign language (VSL). We use Mediapipe to extract keypoints. Then apply a bilinear preprocessing technique in order to reconstruct the missing keypoints. The model is built based on the Adaptive Graph Convolutional Networks by combining with Attention Mechanisms, including spatial, temporal, and channel attention.
 
 The model is test on our self-collected VSL dataset, which was collected from the school for hearing-impaired children in Hanoi, Vietnam. The data consists of 5,572 videos of 28 actors, with 199 classes each, representing the most frequently used spoken Vietnamese. Before training on this dataset, we pre-train the model with the Ankara University Turkish Sign Language Dataset (AUTSL) first to obtain the weights, learning rate for further training.
