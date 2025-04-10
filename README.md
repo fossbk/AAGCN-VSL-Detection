@@ -1,4 +1,4 @@
-# AAGCN-VSL-Detection
+# AAGCN-Modified AGCN for Vietnamese Sign Language (VSL) Recognition
 # Introduction
 In this project, we modify a model to better classify Vietnamese sign language (VSL). We use Mediapipe to extract keypoints. Then apply a bilinear preprocessing technique in order to reconstruct the missing keypoints. The model is built based on the Adaptive Graph Convolutional Networks by combining with Attention Mechanisms, including spatial, temporal, and channel attention.
 
