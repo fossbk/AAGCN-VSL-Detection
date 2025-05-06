@@ -9,7 +9,7 @@ Download all the files and run the jupyter file Total (VSL). This file will do a
 
 Change the path of the input dataset. The code will read all videos in the folder.
 
-In this coding file (Total (VSL)), there are 2 options:
+In file total_vsl, there are 2 options:
 1. Train new.
 2. Train continuously from the model that was trained on the AUTSL dataset.
 
