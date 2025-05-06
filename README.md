@@ -1,11 +1,9 @@
 # AAGCN-Modified AGCN for Vietnamese Sign Language (VSL) Recognition
 # Introduction
-In this project, we modify a model to better classify Vietnamese sign language (VSL). We use Mediapipe to extract keypoints. Then apply a bilinear preprocessing technique in order to reconstruct the missing keypoints. The model is built based on the Adaptive Graph Convolutional Networks by combining with Attention Mechanisms, including spatial, temporal, and channel attention.
-
-The model is test on our self-collected VSL dataset, which was collected from the school for hearing-impaired children in Hanoi, Vietnam. The data consists of 5,572 videos of 28 actors, with 199 classes each, representing the most frequently used spoken Vietnamese. Before training on this dataset, we pre-train the model with the Ankara University Turkish Sign Language Dataset (AUTSL) first to obtain the weights, learning rate for further training.
+This research focuses on improving the classification accuracy of Vietnamese Sign Language (VSL) through a modified deep learning model. The methodology involves extracting skeletal keypoints from video data via Mediapipe. A bilinear interpolation method is then applied during preprocessing to estimate and fill potentially missing keypoint data. The core model utilizes Adaptive Graph Convolutional Networks (AGCNs) combined with spatial, temporal, and channel attention mechanisms to capture relevant sign features effectively. Evaluation was conducted on a novel VSL dataset, collected specifically for this study at a school for deaf and hard-of-hearing children in Hanoi, Vietnam. This dataset contains 5,572 videos from 28 participants, encompassing 199 distinct sign classes representative of frequently used Vietnamese vocabulary. Prior to training on this VSL data, transfer learning was employed: the model was pre-trained on the Ankara University Turkish Sign Language (AUTSL) dataset to initialize weights, facilitating subsequent fine-tuning on our VSL dataset.
 
 # Setup
-Download all the files and run the jupyter file Total (VSL). This file will do almost the entire training process, ranging from extracting the keypoints to performing interpolation, training the model. All the other files are the supplement for the model part. 
+Download all the files and run the jupyter file total_vsl. This file will do almost the entire training process, ranging from extracting the keypoints to performing interpolation, training the model. All the other files are the supplement for the model part. 
 
 Change the path of the input dataset. The code will read all videos in the folder.
 
